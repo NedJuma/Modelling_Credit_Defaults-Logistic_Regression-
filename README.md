@@ -100,31 +100,30 @@ This suggests that some high-cardinality categorical variables may introduce noi
 
 To further improve model performance and robustness, the following enhancements are recommended:
 
-🔧 Feature Engineering
-Extract meaningful components from date features:
+#### 🔧 Feature Engineering
+- Extract meaningful components from date features:
 Year, month, loan age, employment length trends
-Reduce reliance on one-hot encoding for high-cardinality features
-📈 Model Improvements
+- Reduce reliance on one-hot encoding for high-cardinality features
+#### 📈 Model Improvements
 Try more advanced models:
-Random Forest
-XGBoost / LightGBM
-Gradient Boosting Machines
-Perform hyperparameter tuning (GridSearchCV / RandomizedSearchCV)
-⚖️ Class Imbalance Handling
-Investigate target distribution
-Apply techniques such as:
-SMOTE
-Class weighting
-🔍 Validation Strategy
-Use cross-validation instead of a single train-test split for more robust evaluation
-🧠 Interpretability
-Use SHAP or permutation importance for deeper feature interpretation
+- Decision Trees
+- Random Forest
+- XGBoost / LightGBM
+- Gradient Boosting Machines
+#### Perform hyperparameter tuning (GridSearchCV / RandomizedSearchCV)
+#### ⚖️ Class Imbalance Handling
+- Investigate target distribution
+- Apply techniques such as: SMOTE, Class weighting
+#### 🔍 Validation Strategy
+- Use cross-validation instead of a single train-test split for more robust evaluation
+#### 🧠 Interpretability
+- Use SHAP or permutation importance for deeper feature interpretation
 ## 🛠️ Tech Stack
-Python 🐍
-Pandas & NumPy
-Scikit-learn
-Matplotlib / Seaborn
-Category Encoders
-📌 Conclusion
+- Python 🐍
+- Pandas & NumPy
+- Scikit-learn
+- Matplotlib / Seaborn
+- Category Encoders
+## 📌 Conclusion
 
 This project demonstrates a complete end-to-end machine learning workflow—from raw financial data to a trained predictive model capable of estimating loan default risk. The model achieves strong baseline performance and provides meaningful insights into key drivers of loan repayment behavior.
