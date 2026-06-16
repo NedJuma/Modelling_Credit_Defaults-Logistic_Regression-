@@ -61,10 +61,10 @@ A full machine learning pipeline was created using Scikit-learn, including:
 - Standard scaling
 - Logistic Regression model training
 🧠 Pipeline structure:
-SimpleImputer for missing values
-OneHotEncoder for categorical variables
-StandardScaler for numerical variables
-LogisticRegression as the classifier
+- SimpleImputer for missing values
+- OneHotEncoder for categorical variables
+- StandardScaler for numerical variables
+- LogisticRegression as the classifier
 ## 📈 Model Evaluation
 
 The model performed well and showed strong generalization:
